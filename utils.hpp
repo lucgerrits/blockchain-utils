@@ -8,15 +8,15 @@
 #include <sstream>
 
 //crypto++
-#include "cryptopp/cryptlib.h"
-#include "cryptopp/osrng.h"
+#include "../cryptopp/cryptlib.h"
+#include "../cryptopp/osrng.h"
 using CryptoPP::AutoSeededRandomPool;
-#include "cryptopp/hex.h"
+#include "../cryptopp/hex.h"
 using CryptoPP::HexEncoder;
-#include "cryptopp/sha.h"
+#include "../cryptopp/sha.h"
 using CryptoPP::SHA256;
 using CryptoPP::SHA512;
-#include "cryptopp/filters.h"
+#include "../cryptopp/filters.h"
 using CryptoPP::Redirector;
 using CryptoPP::StringSink;
 using CryptoPP::StringSource;
